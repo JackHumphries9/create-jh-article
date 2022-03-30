@@ -20,6 +20,12 @@
 
 This project is a small little project which I created that allows me to create the markdown template for my blog articles. Because I'm the only one using it, there is absolutely no error handling and it is written in vanilla Javascript.
 
+You can try it by typing:
+
+```sh
+npx @jackhumphries9/create-jh-article
+```
+
 ## Contributing
 
 I'm not really open to contributions for this project as it is a personal project. However, if you notice a mistake, an error or something you think that isn't right, consider opening an issue. Thank you!

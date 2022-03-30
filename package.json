@@ -2,6 +2,10 @@
 	"name": "@jackhumphries9/create-jh-article",
 	"version": "1.0.0",
 	"description": "A CLI to help me create blog article metadata and a blog markdown file",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JackHumphries9/create-jh-article"
+	},
 	"main": "src/cli.js",
 	"bin": "bin/create-jh-article",
 	"publishConfig": {
