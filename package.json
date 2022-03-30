@@ -1,15 +1,25 @@
 {
-	"name": "@jackhumphries9/jh-article-gen",
+	"name": "@jackhumphries9/create-jh-article",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "A CLI to help me create blog article metadata and a blog markdown file",
+	"main": "src/cli.js",
+	"bin": "bin/create-jh-article",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"cli"
+	],
+	"author": "Jack Humphries <me@jackhumphries.io> (https://jackhumphries.io)",
 	"license": "ISC",
 	"dependencies": {
 		"esm": "^3.2.25"
-	}
+	},
+	"files": [
+		"bin/",
+		"src/"
+	]
 }
